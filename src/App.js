@@ -27,7 +27,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path='/' element={<Inicio />} />
+        <Route path='/RecetApp' element={<Inicio />} />
         <Route path='/ocultoCSV' element = {<PaginaLectoraCSV/>}/>
         <Route path='/explorador' element = {<Explorador/>}/>
         <Route path='/recetaExtendida/:idReceta' element  = {<RecetasExpandidas/>}/>
