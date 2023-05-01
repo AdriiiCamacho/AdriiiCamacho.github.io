@@ -140,7 +140,7 @@ export const Explorador = () => {
                                         <div className="card-body">
                                             <h5 className="card-title">{recipe.Tittle}</h5>
                                             <div>
-                                                <a href={`./recetaExtendida/${recipe.id}`} className="btn btn-success btnMargen btnMargen1" title="Ver receta" >Ver Receta</a>
+                                                <a href={`/RecetApp/recetaExtendida/${recipe.id}`} className="btn btn-success btnMargen btnMargen1" title="Ver receta" >Ver Receta</a>
                                                 <button onClick={guardarReceta.bind(this, recipe.id)} className="btn btn-outline-dark btnMargen1" type="submit" title="Guardar Receta">Guardar Receta</button> 
                                             </div>
                                         </div>

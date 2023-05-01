@@ -36,7 +36,7 @@ export const CrearReceta = () => {
             comensales: e.target.nComensales.value,
             tiempo: e.target.tiempo.value
         })
-        navigate("/explorador");
+        navigate("/RecetApp/explorador");
     }
     const volver = ()=> {
         console.log("cerrar sesion")

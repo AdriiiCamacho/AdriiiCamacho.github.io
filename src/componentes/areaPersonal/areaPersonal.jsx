@@ -190,7 +190,7 @@ export const AreaPersonal = () => {
                                         <div className="card-body">
                                             <h5 className="card-title">{recipe.Tittle} </h5>
                                             <div>
-                                                <a href={`/recetaExtendida/${recipe.id}`} className="btn btn-success btnMargen btnMargen1" title="Ver Receta">Ver Receta</a>
+                                                <a href={`/RecetApp/recetaExtendida/${recipe.id}`} className="btn btn-success btnMargen btnMargen1" title="Ver Receta">Ver Receta</a>
                                                 <button onClick={borrarReceta.bind(this, recipe.id)} className="btn btn-outline-dark btnMargen1" type="submit" title="Borrar">Borrar</button>
                                             </div>
                                         </div>

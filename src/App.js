@@ -30,9 +30,9 @@ function App() {
         <Route path='/RecetApp' element={<Inicio />} />
         <Route path='/ocultoCSV' element = {<PaginaLectoraCSV/>}/>
         <Route path='RecetApp/explorador' element = {<Explorador/>}/>
-        <Route path='/recetaExtendida/:idReceta' element  = {<RecetasExpandidas/>}/>
-        <Route path='/areaPersonal/:idUsuario' element={<AreaPersonal/>}/>
-        <Route path='/crearReceta' element = {<CrearReceta/>}/>
+        <Route path='RecetApp/recetaExtendida/:idReceta' element  = {<RecetasExpandidas/>}/>
+        <Route path='RecetApp/areaPersonal/:idUsuario' element={<AreaPersonal/>}/>
+        <Route path='RecetApp/crearReceta' element = {<CrearReceta/>}/>
       </Routes>
     </div>
   )
