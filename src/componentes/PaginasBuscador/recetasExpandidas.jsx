@@ -29,7 +29,7 @@ export const RecetasExpandidas = () => {
     }
     console.log(receta)
     
-    const URIrecetasusuarios = "http://localhost:8000/recetasusuarios"
+    const URIrecetasusuarios = "https://recetap.herokuapp.com/recetasusuarios"
     const guardarReceta = async (id, e) => {
         e.preventDefault()
         try{
