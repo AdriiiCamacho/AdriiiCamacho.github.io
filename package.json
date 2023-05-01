@@ -21,8 +21,11 @@
     "react-scroll-motion": "^0.3.2",
     "react-tabindex": "^1.0.3",
     "tabindex": "^0.0.2",
-    "typeface-comfortaa": "^1.1.13",
+    "typeface-comfortaa": "^1.1.13", 
     "web-vitals": "^2.1.4"
+  },
+  "engines":{
+    "node": "18.x"
   },
   "scripts": {
     "start": "react-scripts start",
