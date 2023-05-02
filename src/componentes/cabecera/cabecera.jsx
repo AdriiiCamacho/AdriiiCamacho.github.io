@@ -15,6 +15,11 @@ export const Cabecera = () => {
         navigate("/RecetApp");
     }
 
+    const handleSubmit = async (e) => {
+        navigate("./crearReceta")
+    }
+
+
     return (
     <div>
         <nav className="navbar navbar-expand-lg colorBg  ">
@@ -29,9 +34,9 @@ export const Cabecera = () => {
                 </div>
                 <div className=" navbar-collapse collapse  " id="navbarNavAltMarkup">
                     <div className="navbar-nav ">   
-                        <a className="nav-link  text-white cabeceraMar" href="/RecetApp/explorador" title="Ir a Explorador">Explorador</a>
+                        <a className="nav-link  text-white cabeceraMar" href="./explorador" title="Ir a Explorador">Explorador</a>
                         <a className="nav-link text-white cabeceraMar" href={`/RecetApp/areaPersonal/${localStorage.getItem('user')}`} title="Ir a Area Personal">Area Personal</a>
-                        <a className="nav-link text-white" href={`/RecetApp/crearReceta`} title="Ir a Crear Receta" >Crear Receta</a>
+                        <button className="nav-link text-white" onClick={handleSubmit} title="Ir a Crear Receta" >Crear Receta</button>
                     </div>
                 </div>
                 <button onClick={CerrarSesion} className="link-btn text-white btn-sm buttonEdit nBorde" tabindex="0"title="Cerrar Sesion" >Cerrar sesion</button>   
