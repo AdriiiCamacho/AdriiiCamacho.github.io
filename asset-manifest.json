@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RecetApp/static/css/main.ebf20eb2.css",
-    "main.js": "/RecetApp/static/js/main.6e3ff3db.js",
+    "main.js": "/RecetApp/static/js/main.b65ea76c.js",
     "static/media/derechaAbajo.png": "/RecetApp/static/media/derechaAbajo.3350bccae0f4126da68f.png",
     "static/media/fotoLogin.png": "/RecetApp/static/media/fotoLogin.83c2942711ce27e41556.png",
     "static/media/derechaArriba.png": "/RecetApp/static/media/derechaArriba.4d7840644c8126c1267d.png",
@@ -14,10 +14,10 @@
     "static/media/RecetAppLetra.svg": "/RecetApp/static/media/RecetAppLetra.7c8837921f8bab1f36eadc7f0f5cc7ac.svg",
     "index.html": "/RecetApp/index.html",
     "main.ebf20eb2.css.map": "/RecetApp/static/css/main.ebf20eb2.css.map",
-    "main.6e3ff3db.js.map": "/RecetApp/static/js/main.6e3ff3db.js.map"
+    "main.b65ea76c.js.map": "/RecetApp/static/js/main.b65ea76c.js.map"
   },
   "entrypoints": [
     "static/css/main.ebf20eb2.css",
-    "static/js/main.6e3ff3db.js"
+    "static/js/main.b65ea76c.js"
   ]
 }
