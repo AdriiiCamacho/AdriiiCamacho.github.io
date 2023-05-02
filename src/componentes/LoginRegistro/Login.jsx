@@ -17,7 +17,7 @@ export const Login = (props) => {
         if((typeof usuario.data) == "number"){
             console.log("OK")
             localStorage.setItem('user', JSON.stringify(usuario.data));
-            navigate("./explorador")
+            navigate("./crearReceta")
         }else{
             window.alert("No se han insertado datos correctos")
         }

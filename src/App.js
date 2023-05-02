@@ -29,7 +29,7 @@ function App() {
       <Routes>
         <Route path='/RecetApp' element={<Inicio />} />
         <Route path='/ocultoCSV' element = {<PaginaLectoraCSV/>}/>
-        <Route path='RecetApp/explorador' element = {<CrearReceta/>}/>
+        <Route path='RecetApp/explorador' element = {<Explorador/>}/>
         <Route path='RecetApp/recetaExtendida/:idReceta' element  = {<RecetasExpandidas/>}/>
         <Route path='RecetApp/areaPersonal/:idUsuario' element={<AreaPersonal/>}/>
         <Route path='RecetApp/crearReceta' element = {<CrearReceta/>}/>
@@ -37,5 +37,3 @@ function App() {
     </div>
   )
 }
-
-export default App;
