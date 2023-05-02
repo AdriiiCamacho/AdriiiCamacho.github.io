@@ -16,7 +16,7 @@ export const Cabecera = () => {
     }
 
     const handleSubmit = async (e) => {
-        navigate("RecetApp/crearReceta")
+        navigate("/RecetApp/crearReceta")
     }
 
 
