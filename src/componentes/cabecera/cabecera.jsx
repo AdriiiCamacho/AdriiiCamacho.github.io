@@ -36,7 +36,7 @@ export const Cabecera = () => {
                     <div className="navbar-nav ">   
                         <a className="nav-link  text-white cabeceraMar" href="./explorador" title="Ir a Explorador">Explorador</a>
                         <a className="nav-link text-white cabeceraMar" href={`/RecetApp/areaPersonal/${localStorage.getItem('user')}`} title="Ir a Area Personal">Area Personal</a>
-                        <button className="nav-link text-white" onClick={handleSubmit} title="Ir a Crear Receta" >Crear Receta</button>
+                        <button className="nav-link text-white" onClick={handleSubmit} title="Ir a Crear Receta" >Crear Recetaa</button>
                     </div>
                 </div>
                 <button onClick={CerrarSesion} className="link-btn text-white btn-sm buttonEdit nBorde" tabindex="0"title="Cerrar Sesion" >Cerrar sesion</button>   
